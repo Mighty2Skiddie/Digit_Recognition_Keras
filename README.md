@@ -86,7 +86,7 @@ Used for integer-encoded targets (labels like 0, 1, …, 9). It measures the dif
 
 ---
 
-## 📊 Results
+## 📊 **Results**
 
 | Metric             | Value     |
 |--------------------|-----------|
@@ -99,10 +99,42 @@ Used for integer-encoded targets (labels like 0, 1, …, 9). It measures the dif
 
 ---
 
-## 📌 Installation & Setup
+## 📌 **Installation & Setup**
 
-1. Clone this repository:
+### 1. Clone this repository:
 ```bash
 git clone https://github.com/yourusername/Digit-Recognition-DNN.git
 cd Digit-Recognition-DN
+```
+### 2. Install dependencies:
+```
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
+```
+### 3. Run the notebook:
+```
+jupyter notebook Digit_Recognition_MNIST.ipynb
+```
+## **Technologies Used**
+- Programming Language: Python
+
+- Deep Learning Framework: TensorFlow 2.x, Keras
+
+- Data Manipulation: NumPy, Pandas
+
+- Visualization: Matplotlib, Seaborn
+
+- Model Evaluation: Scikit-learn
+
+## **Future Improvements**
+
+- Implement Convolutional Neural Networks (CNNs) for better accuracy
+
+- Apply Dropout layers for regularization and preventing overfitting
+
+- Perform Hyperparameter tuning using GridSearchCV or Keras Tuner
+
+- Use TensorBoard for advanced visualization of training metrics
+
+- Convert model to TensorFlow Lite for deployment on mobile devices
+
 
